@@ -35,8 +35,8 @@ class Locale {
             throw err;
           }
         }
+        }
       }
-    }
     Object.keys(this.data)
     .forEach(key => {
       this.desc[key] = this.desc[key] || this.data[key].description;
